@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML2</title>
+</head>
+	<style>
+	#sharktitle
+		{
+		text-align: center;
+		text-decoration:underline
+	}
+	.sharklist{
+		color: indigo;
+		font-size: 120%
+	}
+		table {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"		
+	}
+		td, th {
+	padding: 9px;
+	border:1px solid #292929;
+	color: navy
+	}
+		a:link, a:visited {
+	background-color: #154C6F;
+	color: ghostwhite;
+	padding: 1px 5px;
+	text-align: center;
+	text-decoration: underline;
+}
+		a:hover, a:active {
+	background-color: #3582FA;
+}
+		h2, h3 {
+	color:coral;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+</style>
+	
+<body style="background-color:#CBF0FF">
+	<h1 id="sharktitle">Sharks of the Sea</h1>
+	<hr>
+		<h2 style="color:coral">Different Types of Sharks</h2>
+	<img src="images/shark1.jpg" alt="Sillhouete of a shark behind many swimming fish." style="width:500px;height:635px">
+	<p style="font-size: 110%">While the common perception of sharks is simply what the media shows us, there's a lot more to them than that. <i>Size</i> and <i>diet</i> varies wildly between each subspecies, not even taking into account their general appearances. Truly, there are probably more types of shark than you might have thought!</p>
+	<table>
+  <tr>
+    <th>Shark</th>
+    <th>Average Diet</th>
+    <th>Average Size</th>
+  </tr>
+  <tr>
+    <td>Tiger Shark</td>
+    <td>Fish, Stingrays, Carrion</td>
+    <td>10 ft 8 in–13 ft 11 in</td>
+  </tr>
+  <tr>
+    <td>Whale Shark</td>
+    <td>Plankton and Tiny Fish</td>
+    <td>39 ft–59 ft</td>
+  </tr>
+  <tr>
+    <td>Bonnethead Shark</td>
+    <td>Sea Grass, Squid, Small Fish, Crabs</td>
+    <td>30 in–48 in</td>
+		</tr>
+	</table>
+	  
+	<h3>Common Carnivorous Sharks</h3>
+	<img src="images/shark3.jpg" alt="A shark resting at the bottom of a tank." width="600" height="345">
+	<ul class="sharklist">
+		<li>Great White Sharks</li>
+		<li>Hammerhead Sharks</li>
+		<li>Tiger Sharks</li>
+		<li>Bullsharks</li>
+	</ul>
+		<p style="font-size: 110%">These are the sharks that you always hear about in popular media. Their diet consists of almost entirely meat, but less commonly known is that most sharks are very opportunistic. Many of them are willing to eat <em>almost any fish</em> they come across, although this isn't to say that some don't have preferences. Tiger sharks are even known to actively eat <i title="This includes leftover dead fish or trash in the ocean.">carrion</i> without any harm.</p>
+	
+	<h3>Filter Feeder Sharks</h3>
+	<img src="images/shark2.jpg" alt="Top view of a Whale Shark." style="width:600px;height:400px;">
+	<ul class="sharklist">
+		<li>Whale Sharks</li>
+		<li>Basking Sharks</li>
+		<li>Megamouth Sharks</li>
+	</ul>
+		<p style="font-size: 110%">These are the sharks that are known to survive off of filter feeding rather than any larger aquatic life. <a href="filterfeeders.html" title="More on the three well-known filter feeders.">Filter feeders</a> have a diet that is primarily composed of plankton, krill or very small fish, similar to whales. Because of this diet, they are known for their huge mouths that allow them to quickly take in large amounts of their food.</p>
+		<p style="font-size: 110%">Whale sharks are one of the most well known species, known for their beautiful pattern and immense size. Most filter feeder sharks aren't very well-studied because they are often far off-shore in the deep ocean waters.</p>
+	
+	<h3 title="Bottom feeder refers to any sealife whose food comes from the ocean floor">Bottom Feeder Sharks</h3>
+	<img src="images/shark4.jpg" alt="Small sharks swimming in a touch tank." width="500" height="565">
+	<ul class="sharklist">
+		<li>Nurse Sharks</li>
+		<li id="sharkName"></li>
+		<li>Angel Sharks</li>
+		<li>Wobbegong Sharks </li>
+	</ul>
+	<p style="font-size: 110%">Bottom feeders almost always keep towards the <strong>floor</strong> of their ocean habitat. Their diet is entirely based around small crustaceans, mollusks, and other small fish swimming around the ocean floor. These types of sharks are widely considered to be fairly harmless, so they are often kept in aquariums or touch tanks.</p>
+	<p style="font-size: 110%">One of the lesser known facts is that there is actually a type of shark that is capable of subsisting on a diet of <strong style="color:darkgreen">plants</strong>. <a href="https://www.discovery.com/nature/sharks-eat-plants--too--" title="More information on the discovery of a Bonnethead's diet." target="_blank">Bonnetheads</a> are a type of small hammerhead sharks that have a diet that contains over 60% <b>sea grass</b>. Their bottom feeding habits is what allows them to consume plenty of vegetation along with their usual smaller prey.</p>
+<script>
+	document.getElementById("sharkName").innerHTML="Bonnethead Sharks";
+	</script>
+	</body>
+</html>
